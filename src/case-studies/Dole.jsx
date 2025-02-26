@@ -40,7 +40,7 @@ const Dole = () => {
                 illustrate the conversations forming and evolving
                 over time across online spaces: social, news, blogs,
                 forums, eCommerce, reviews, comments, etc. The AI
-                analyzes <b>sentence structure</b>, <b>common keywords</b> and
+                analyzes <gitb>sentence structure</git adb>, <b>common keywords</b> and
                 <b>upload</b> time among multiple posts.</p>
 
             {/*Section 3*/}
