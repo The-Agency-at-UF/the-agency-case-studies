@@ -1,0 +1,21 @@
+/* src/styles/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    font-family: 'Gentona', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    padding: 2rem;
+}
+
+.body {
+    font-family: 'Gentona', sans-serif;
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
