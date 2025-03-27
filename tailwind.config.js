@@ -10,9 +10,12 @@ export default {
         '70': '0.70',
       },
       colors: {
-        doleOrange: 'ED9612',
-        doleGreen: 'C8D7A0',
-        doleBlue: '7AC4D8',
+        'yellow': '#EBA842',
+        'green': '#C8D7A0',
+        'blue': '#7AC4D8'
+      },
+      backgroundImage: {
+        'dole-gradient': 'linear-gradient(#E29612 0%, #C8D7A0 30%, #7AC4DB 86%)',
       }
     },
   },
