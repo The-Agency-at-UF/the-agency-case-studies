@@ -21,7 +21,6 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import GatorsUnidos from "../src/case-studies/GatorsUnidos";
 import Seagram from "./case-studies/Seagram";
-import GatorsUnidos from "../src/case-studies/GatorsUnidos";
 import Dole from "../src/case-studies/Dole";
 import MichelobUltra from "../src/case-studies/MichelobUltra";
 
