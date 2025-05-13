@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+@font-face {
+  font-family: 'Gentona';
+  src: url('fonts/Gentona/Gentona_UFL_Fonts_TT/Gentona Microsoft OFFICE/GentonaTT-Regular.ttf') format('ttf');
+}

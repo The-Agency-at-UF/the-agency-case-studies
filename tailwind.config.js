@@ -22,7 +22,17 @@ export default {
       animation: {
         "fade-in": "fadeIn 1s ease-out forwards",
       },
-    
+      opacity: {
+        '70': '0.70',
+      },
+      colors: {
+        'yellow': '#EBA842',
+        'green': '#C8D7A0',
+        'blue': '#7AC4D8'
+      },
+      backgroundImage: {
+        'dole-gradient': 'linear-gradient(#E29612 0%, #C8D7A0 30%, #7AC4DB 86%)',
+      }
     },
   },
   plugins: [],
