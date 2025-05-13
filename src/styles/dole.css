@@ -41,3 +41,6 @@
     margin: auto;
 }
 
+.fade-bottom {
+    mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+}
