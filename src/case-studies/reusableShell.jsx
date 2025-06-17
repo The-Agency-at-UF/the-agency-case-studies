@@ -19,6 +19,7 @@ const ReusableShell = () => {
       </div>
 
       {/* Optional Floating Image */}
+      git checkout -b seagram-case-study
       <div className="relative">
         <img
           src="your-floating-image.png"
@@ -46,7 +47,7 @@ const ReusableShell = () => {
         {/* Title */}
         <div className="text-4xl leading-relaxed max-w-6xl">
           <p>
-            Your compelling one-liner or case study title goes here
+            one-liner or case study title goes here
           </p>
         </div>
       </AnimateOnScroll>
@@ -72,8 +73,7 @@ const ReusableShell = () => {
         <div className="flex w-full max-w-6xl text-xl leading-relaxed relative">
           <div className="w-4/5 pr-10">
             <p>
-              Replace this with your section description. Break your story into clear, distinct
-              moments with animated headers like this.
+               section description. 
             </p>
           </div>
           <img
@@ -101,7 +101,7 @@ const ReusableShell = () => {
         {/* Paragraph */}
         <div className="w-full max-w-6xl text-xl leading-relaxed">
           <p>
-            Continue your narrative here. This section will animate in using a fade/slide effect.
+           This section will animate in using a fade/slide effect.
           </p>
         </div>
       </AnimateOnScroll>
@@ -111,7 +111,7 @@ const ReusableShell = () => {
         <div className="text-6xl font-extrabold text-white">THE IMPACT</div>
         <div className="w-full max-w-6xl text-xl leading-relaxed">
           <p>
-            Wrap up with results or next steps. Consider including graphs, metrics, or images here.
+           final text 
           </p>
         </div>
       </AnimateOnScroll>

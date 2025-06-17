@@ -7,46 +7,47 @@ const Bliss = () => {
       {/* Background Image */}
       <div
         className="absolute top-0 left-0 w-full h-screen bg-no-repeat bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('your-cover-image.png')" }}
+        style={{ backgroundImage: "url('src/assets/images/bliss/welcomeImg.png')" }}
       ></div>
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black z-0" />
+      <div className="absolute inset-0 [background:linear-gradient(to_bottom,rgba(247,82,150,0)_0%,rgba(247,82,150,1)_20%)] z-0" />
+
 
       {/* Case Study Label */}
-      <div className="absolute top-40 left-40 px-9 py-3 border-4 border-white bg-black text-2xl font-extrabold shadow-lg text-center z-10">
+      <div className="absolute top-40 left-40 px-9 py-3 border-4 border-#75CFE5 bg-black text-2xl font-extrabold shadow-lg text-center z-10">
         Case Study
       </div>
 
       {/* Optional Floating Image */}
-      <div className="relative">
+      {/* <div className="relative">
         <img
           src="your-floating-image.png"
           alt="Floating visual"
           className="absolute top-0 right-0 w-[500px] object-contain opacity-0 animate-fade-in"
           style={{ animation: "fadeIn 3s ease-out forwards" }}
         />
-      </div>
+      </div> */}
 
       {/* Logos Row */}
       <AnimateOnScroll className="relative z-10 px-40 pt-[345px] flex flex-col items-start space-y-12">
         <div className="flex items-center space-x-4">
-          <img src="logo1.png" alt="Logo 1" className="w-[300px] h-auto" />
+          <img src="src/assets/images/bliss/LogoBliss.png" alt="Logo 1" className="w-[300px] h-auto" />
           <p className="text-lg font-extrabold">X</p>
-          <img src="src/assets/images/The Agency_White Logo.png" alt="the agency logo" className="w-[300px] h-auto" />
+          <img src="src/assets/images/The Agency_White Logo.png" alt="the agency logo" className="w-[270px] h-auto" />
         </div>
 
         {/* Divider */}
         <div className="w-full">
           <svg width="100%" height="4">
-            <line x1="0" y1="2" x2="1000" y2="2" stroke="white" strokeWidth="4" />
+            <line x1="0" y1="2" x2="1000" y2="2" stroke="#75CFE5" strokeWidth="4" />
           </svg>
         </div>
 
         {/* Title */}
-        <div className="text-4xl leading-relaxed max-w-6xl">
+        <div className="text-4xl font-extrabold leading-relaxed max-w-6xl">
           <p>
-            Your compelling one-liner or case study title goes here
+          Helping Bliss Get Skin in the Gen Z Game 
           </p>
         </div>
       </AnimateOnScroll>
@@ -72,15 +73,14 @@ const Bliss = () => {
         <div className="flex w-full max-w-6xl text-xl leading-relaxed relative">
           <div className="w-4/5 pr-10">
             <p>
-              Replace this with your section description. Break your story into clear, distinct
-              moments with animated headers like this.
+            Healthy skin isn’t a luxury – it’s a necessity. Bliss knew this fact long before it was a trend, championing skincare as self-care beginning in the 1990s. Despite its decades-old ingenuity, Bliss struggled to gain the interest of younger generations.  Bliss, alongside Chicago-based agency Movers+Shakers, came to us to reach Gen Z and millennial audiences. Together, we determined content recommendations for Bliss’ Instagram and TikTok while discovering new ways to build brand loyalty.
             </p>
           </div>
-          <img
+          {/* <img
             src="section-image.png"
             alt="Visual"
             className="absolute top-[80px] right-0 w-[500px] object-contain"
-          />
+          /> */}
         </div>
       </AnimateOnScroll>
 
