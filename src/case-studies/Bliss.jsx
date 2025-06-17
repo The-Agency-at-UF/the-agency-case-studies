@@ -101,7 +101,7 @@ const Bliss = () => {
         {/* Paragraph */}
         <div className="w-full max-w-6xl text-xl leading-relaxed">
           <p>
-            Continue your narrative here. This section will animate in using a fade/slide effect.
+           text fade/slide effect.
           </p>
         </div>
       </AnimateOnScroll>
@@ -111,7 +111,7 @@ const Bliss = () => {
         <div className="text-6xl font-extrabold text-white">THE IMPACT</div>
         <div className="w-full max-w-6xl text-xl leading-relaxed">
           <p>
-            Wrap up with results or next steps. Consider including graphs, metrics, or images here.
+            extra text
           </p>
         </div>
       </AnimateOnScroll>
